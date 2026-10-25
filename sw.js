@@ -1,4 +1,4 @@
-const CACHE='timeflight-6973f221dc08';
+const CACHE='timeflight-reader-v7-78dc63177451';
 const BASE=new URL('./',self.location.href);
 const PRECACHE=["./", "./index.html", "./manifest.webmanifest", "./pwa-register.js", "./icons/apple-touch-icon.feb7b9084a14.png", "./icons/icon-192.97e070d7f51f.png", "./icons/icon-512.c5198fd7e703.png", "./assets/image.b882a72aff23.png", "./assets/loader.f2f1bd06ad7c.js", "./assets/app.26f21b483a87.js"];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(PRECACHE.map(url=>new Request(new URL(url,BASE),{cache:'reload'}))))));
