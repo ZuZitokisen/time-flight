@@ -1,6 +1,6 @@
-const CACHE='timeflight-de223e77f4a6';
+const CACHE='timeflight-6973f221dc08';
 const BASE=new URL('./',self.location.href);
-const PRECACHE=["./", "./index.html", "./manifest.webmanifest", "./pwa-register.js", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/apple-touch-icon.png", "./assets/image.b882a72aff23.png", "./assets/loader.f2f1bd06ad7c.js", "./assets/app.26f21b483a87.js"];
+const PRECACHE=["./", "./index.html", "./manifest.webmanifest", "./pwa-register.js", "./icons/apple-touch-icon.feb7b9084a14.png", "./icons/icon-192.97e070d7f51f.png", "./icons/icon-512.c5198fd7e703.png", "./assets/image.b882a72aff23.png", "./assets/loader.f2f1bd06ad7c.js", "./assets/app.26f21b483a87.js"];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(PRECACHE.map(url=>new Request(new URL(url,BASE),{cache:'reload'}))))));
 // Activate on the next normal launch; don't interrupt an open reader.
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('timeflight-')&&k!==CACHE).map(k=>caches.delete(k))))));
