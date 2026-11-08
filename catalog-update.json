@@ -2,20 +2,20 @@
   "schema": "timeflight.catalog-update",
   "version": 1,
   "readerSchema": 1,
-  "snapshotId": "6d0acd5f481572cf5509dce8d8fd8c9e40fc934f5dbe1b11a0afb52f6cc81643",
-  "dataVersion": "v76r5-cloud-catalog-20261031",
-  "pwaRelease": "tf-0bae8b71c6eb42e99a02",
+  "snapshotId": "ebe7d23fab95864d7cf5ac4915c8de6456913341f2cece064df26ab81068acbc",
+  "dataVersion": "v76r6-kishidan-20261108",
+  "pwaRelease": "tf-b8196b0bc9bd2add6a44",
   "codec": "timeline-shape-table-v1",
   "manifest": {
-    "path": "data-manifest.0a8650351714.json",
-    "sha256": "0a8650351714e568a6d9fbfba325bf7e8d2ddfedfe41b1cbd3d201aeab798ab4",
-    "bytes": 1354
+    "path": "data-manifest.948b1b29cd66.json",
+    "sha256": "948b1b29cd665750cbc3c11ac0a9c3d1bcdab61a4c74423e1d42604a2989528b",
+    "bytes": 1349
   },
   "parts": [
     {
-      "path": "data/core.67d604f4d1ba.json",
-      "sha256": "67d604f4d1babb4024b3c0890ff59a9c485e4b1f617e80e5ee4355e48c19b2ef",
-      "bytes": 2492042,
+      "path": "data/core.09938a33ce44.json",
+      "sha256": "09938a33ce44cb774e3e44654537a2e8c2972e5537744bbce2d0b9205ef9be53",
+      "bytes": 3025503,
       "codec": "timeline-shape-table-v1",
       "role": "core"
     },
@@ -27,13 +27,13 @@
       "role": "details"
     },
     {
-      "path": "data/live.040e1bf5c056.json",
-      "sha256": "040e1bf5c0567cc6c4ec29e82e96e0c79afe4704f05eee1b9cb0b5f5190d071e",
-      "bytes": 1654139,
+      "path": "data/live.0db8b1cbe6f2.json",
+      "sha256": "0db8b1cbe6f2fdedac12c7743586bf051fd7318550cc0821294e6f63342ad4b5",
+      "bytes": 1657002,
       "codec": "timeline-shape-table-v1",
       "role": "records",
       "kind": "live",
-      "count": 683
+      "count": 684
     },
     {
       "path": "data/blog-2013.46b71da9dd00.json",
@@ -171,6 +171,6 @@
       "count": 58
     }
   ],
-  "recordCount": 10883,
+  "recordCount": 10884,
   "audience": "public"
 }
