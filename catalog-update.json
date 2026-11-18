@@ -2,20 +2,20 @@
   "schema": "timeflight.catalog-update",
   "version": 1,
   "readerSchema": 1,
-  "snapshotId": "dea5ccaf86e6ee8c0e17f3c75deecab72c65b6394d371aed65d373e63c635794",
-  "dataVersion": "v76r7-recent-live-20261118",
-  "pwaRelease": "tf-f76060a9d4d82723b11d",
+  "snapshotId": "79fedbb6493641a1d32dc41eb2141054714fd82f5f20973b446a958453c33564",
+  "dataVersion": "v76r8-image-setlists-20261118",
+  "pwaRelease": "tf-823221d1473112734a90",
   "codec": "timeline-shape-table-v1",
   "manifest": {
-    "path": "data-manifest.041c339564d5.json",
-    "sha256": "041c339564d578bf9e0ac0c73411912554481afd405dc8333e5376d331be5310",
-    "bytes": 1352
+    "path": "data-manifest.8ca82b162c23.json",
+    "sha256": "8ca82b162c23e2aecd771167f1bc705b0e7378a0b795994f30c40cd1c6dfbddd",
+    "bytes": 1355
   },
   "parts": [
     {
-      "path": "data/core.66e835d04fb2.json",
-      "sha256": "66e835d04fb28b9503d22378e4d3bb31399e733a9b9d672660b66d0600303ba5",
-      "bytes": 1322245,
+      "path": "data/core.183d79e6b950.json",
+      "sha256": "183d79e6b95064e4ec7789af3d71400912587396c3354523497b5ae8c0059423",
+      "bytes": 1326095,
       "codec": "timeline-shape-table-v1",
       "role": "core"
     },
@@ -27,9 +27,9 @@
       "role": "details"
     },
     {
-      "path": "data/live.7bfbc0f5a334.json",
-      "sha256": "7bfbc0f5a334b3c4fee5a4598a45b8a438f437132b464eab6b09e865d9a7df3e",
-      "bytes": 1190057,
+      "path": "data/live.85ebb938ad0a.json",
+      "sha256": "85ebb938ad0a432e6cf1e8ee192c2c27af5729a6fecb678ddfed64bd9f2c7b81",
+      "bytes": 1206052,
       "codec": "timeline-shape-table-v1",
       "role": "records",
       "kind": "live",
